@@ -34,8 +34,9 @@ test accurcay: 84%
 Try the following given more time:
 
 1. Try other embedding pretraining model, like GloVe, Word2Vec
-2. Web_text doesn't improve much model accuracy, but instead increase the model training time. May need further look into this, like build a dictionary, or do some heavy cleaning
-3. Didn't have enough time to tune hyperparameters, I believe the model performence will increase after tuning.
+2. Fine tune the pretraining model
+3. Web_text doesn't improve much model accuracy, but instead increase the model training time. May need further look into this, like build a dictionary, or do some heavy cleaning
+4. Didn't have enough time to tune hyperparameters, I believe the model performence will increase after tuning
 
 ## 6. Reference
 https://github.com/bentrevett/pytorch-sentiment-analysis
